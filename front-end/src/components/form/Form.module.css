@@ -1,0 +1,22 @@
+.main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main label {
+    display: block;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+.main input{
+    margin-bottom: 24px;
+}
+
+.main button {
+    width: 174px;
+    height: 40px;
+    font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.footer{
+    height: 80px;
+    background-color: #36D6AD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}

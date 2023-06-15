@@ -1,0 +1,12 @@
+.main {
+    color: #FFFFFF;
+    width: 488px;
+    height: 52px;
+}
+
+.content {
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: center;
+}

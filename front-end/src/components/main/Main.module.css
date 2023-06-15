@@ -1,0 +1,25 @@
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main button {
+    margin-bottom: 16px;
+}
+
+.logo{
+    margin-top: 68px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+
