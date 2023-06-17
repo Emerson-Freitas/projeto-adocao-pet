@@ -1,13 +1,10 @@
 import './App.css'
-// import Register from './routes/Register'
-// import Home from './routes/Home'
-import Sign from './routes/Sign'
+import { Outlet } from 'react-router-dom'
+
 function App() {
   return (
     <>
-      {/* <Register/> */}
-      {/* <Home/> */}
-      <Sign/>
+      <Outlet/>
     </>
   )
 }
