@@ -11,4 +11,3 @@ router
     .delete('/pets/:id', PetController.deletarPetById)
 
 export default router;
-

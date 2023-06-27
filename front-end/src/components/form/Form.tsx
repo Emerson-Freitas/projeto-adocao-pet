@@ -8,10 +8,10 @@ interface Props{
 const Form = ({inputs, buttonForm}: Props) => {
   return (
     <form className={styles.main}>
-        {inputs.map((input) => (
-            <>
-               {input}
-            </>
+        {inputs.map((input, index) => (
+            <div key={index}>
+              {input}
+            </div>
         ))}
         {buttonForm}
     </form>

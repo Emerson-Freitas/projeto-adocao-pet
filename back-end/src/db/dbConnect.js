@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb+srv://alura:pet-adocao-projeto@alura.l4yysga.mongodb.net/projeto-adocao-pet");
+mongoose.connect("mongodb+srv://projeto-adocao-pet:pet-adocao-projeto@cluster0.sq0leac.mongodb.net/projeto-adocao-pet");
 const db = mongoose.connection;
 
 export default db;

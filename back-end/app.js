@@ -1,6 +1,7 @@
 import express from 'express';
 import db from './src/db/dbConnect.js';
 import routes from './src/routes/index.js';
+import cors from 'cors';
 
 db.on("error", console.log.bind(console, 'Erro de conexão'));
 db.once("open", () => {
@@ -11,6 +12,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
+app.use(cors());
 routes(app);
 
 app.listen(port, () => {

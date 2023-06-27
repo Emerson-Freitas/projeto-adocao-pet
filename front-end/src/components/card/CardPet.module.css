@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    width: 363px;
+    margin-bottom: 10px;
+    background-color: #F6F6F6;
+    height: 196px;
+    margin: 0 16px;
+    font-family: 'Poppins';
+}
+
+#petName {
+    margin: 10px 0;
+    color: #3772FF;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.petAvatar {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.petData {
+    width: 50vw;
+    color:#737380;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}

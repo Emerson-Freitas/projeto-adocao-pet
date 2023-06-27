@@ -9,6 +9,7 @@ import {
 import Home from './routes/Home.tsx'
 import Register from './routes/Register.tsx'
 import Sign from './routes/Sign.tsx'
+import Pets from './routes/Pets.tsx'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/sign",
         element: <Sign/>
+      },
+      {
+        path: "/pets",
+        element: <Pets/>
       }
     ]
   }
