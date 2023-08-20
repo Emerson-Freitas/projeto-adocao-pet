@@ -6,10 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
-import Home from './routes/Home.tsx'
-import Register from './routes/Register.tsx'
-import Sign from './routes/Sign.tsx'
-import Pets from './routes/Pets.tsx'
+import Home from './routes/home/Home.tsx'
+import Register from './routes/register/Register.tsx'
+import Sign from './routes/sign/Sign.tsx'
+import Pets from './routes/pets/Pets.tsx'
 
 const router = createBrowserRouter([
   {
