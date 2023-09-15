@@ -10,6 +10,8 @@ import Home from './routes/home/Home.tsx'
 import Register from './routes/register/Register.tsx'
 import Sign from './routes/sign/Sign.tsx'
 import Pets from './routes/pets/Pets.tsx'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 const router = createBrowserRouter([
   {
@@ -39,5 +41,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <RouterProvider router={router}/>
+    <ToastContainer/>
   </React.StrictMode>,
 )

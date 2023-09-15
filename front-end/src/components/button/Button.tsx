@@ -6,7 +6,7 @@ interface Props{
 
 const Button = ({message}: Props) => {
   return (
-    <button type="button" className={styles.button}>{message}</button>
+    <button type="submit" className={styles.button}>{message}</button>
   )
 }
 

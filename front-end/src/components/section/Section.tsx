@@ -17,7 +17,7 @@ const Section = ({pets, message, colorParagraph}: Props) => {
       </div>
       <div className={styles.cardSection}>
         {pets.map((pet: IPet) => (
-            <CardPet key={pet._id} pet={pet}/>
+            <CardPet key={pet.id} pet={pet}/>
         ))}
       </div>
     </div>

@@ -53,10 +53,10 @@ const CardPet = ({pet}: Props) => {
         <div dangerouslySetInnerHTML={{ __html: avatarSvg }} />
       </div>
       <div className={styles.petData}>
-        <p id={styles.petName}>{pet.nome}</p>
-        <p>{pet.idade}</p>
-        <p>{pet.porte}</p>
-        <p>{pet.caracteristicas}</p>
+        <p id={styles.petName}>{pet.name}</p>
+        <p>{pet.age}</p>
+        <p>Grande</p>
+        <p>{pet.characteristics}</p>
       </div>
     </div>
   )

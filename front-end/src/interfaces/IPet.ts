@@ -1,10 +1,10 @@
 interface IPet {
-    _id: string
-    nome: string
-    idade: number
+    id: string
+    name: string
+    age: number
     porte: string
-    caracteristicas: string
-    abrigo: string
+    characteristics: string
+    shelter_id: string
 }
 
 export default IPet

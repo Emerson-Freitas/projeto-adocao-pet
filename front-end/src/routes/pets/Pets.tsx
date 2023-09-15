@@ -14,9 +14,7 @@ const Pets = () => {
       const getListPets = async() => {
         try {
             const res = await axios.get(`${url}/pets`);
-            console.log('res.data:::', res.data)
             setPets(res.data)
-            console.log(res.data)
             return res.data
         } catch (error) {
           console.log(error);
@@ -26,7 +24,7 @@ const Pets = () => {
   }, []);
 
   useEffect(() => {
-    console.log('pets:::', pets) 
+    console.log('pets', pets)
   }, [pets])
 
   return (
